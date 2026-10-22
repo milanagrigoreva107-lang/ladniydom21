@@ -91,21 +91,24 @@
 </div>
 
 <!-- ПРАВАЯ КОЛОНКА (ФОРМА) -->
-<form class="contacts__form" id="callback" name="callback" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-<input type="hidden" name="form-name" value="callback" />
-<p style="display:none;"><label>Не заполняйте это поле: <input name="bot-field" /></label></p>
+ <form class="contacts__form" id="callback" action="https://formsubmit.co/vikk8484@mail.ru" method="POST">
+                    
+                    <input type="hidden" name="_subject" value="Новая заявка с сайта Ладный дом 21!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="_honey" style="display:none">
 
-<h2 class="contacts__form-title">Заказать звонок</h2>
-<p class="contacts__form-subtitle">Оставьте номер — перезвоним в течение 15 минут</p>
+                    <h2 class="contacts__form-title">Заказать звонок</h2>
+                    <p class="contacts__form-subtitle">Оставьте номер — перезвоним в течение 15 минут</p>
 
-<input type="text" name="name" placeholder="Ваше имя" required>
-<input type="tel" name="phone" placeholder="Телефон" required>
-<textarea name="message" placeholder="Что нужно сделать? (необязательно)" rows="3"></textarea>
-<input type="hidden" name="page" value="contacts">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="tel" name="phone" placeholder="Телефон" required>
+                    <textarea name="message" placeholder="Что нужно сделать? (необязательно)" rows="3"></textarea>
+                    <input type="hidden" name="page" value="contacts">
 
-<button type="submit" class="btn btn--primary btn--big">Отправить заявку</button>
-<p class="contacts__form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
-</form>
+                    <button type="submit" class="btn btn--primary btn--big">Отправить заявку</button>
+                    <p class="contacts__form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                </form>
 
 </div>
 </div>
